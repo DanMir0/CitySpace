@@ -1,0 +1,113 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header-info {
+  display: flex;
+  margin: 0 60px;
+  height: 88px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-info__logo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.header-info__logo img {
+  margin-right: 12px;
+}
+.header-info__logo--space {
+  color: #A7CC4A;
+}
+.header-info__menu {
+  display: flex;
+  margin-left: 264px;
+  max-width: 798px;
+  align-items: center;
+  flex-direction: row;
+}
+.header-info__menu a {
+  padding-right: 40px;
+  font-size: 15px;
+  color: #000000;
+}
+.header-info__contact-info {
+  display: flex;
+  margin-left: 264px;
+  text-align: right;
+  font-size: 15px;
+}
+.header-info__contact-info--contact {
+  margin-left: 40px;
+  color: #88C558;
+}
+.header-info__sliders {
+  background-image: url(../img/sliders.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 980px;
+}
+.header-info__sliders--name {
+  padding: 582px 0 100px 60px;
+  font-size: 64px;
+  color: #FFFFFF;
+}
+.header-info__sliders--btn {
+  display: flex;
+  margin-left: 60px;
+}
+.header-info__sliders--btn button {
+  margin-right: 8px;
+  width: 24px;
+  opacity: 0.5;
+  border: 3px solid #FFFFFF;
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+.container .block-work {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1167px;
+}
+.container .block-work__title {
+  font-size: 48px;
+  margin-top: 180px;
+}
+.container .block-work__one {
+  max-width: 543px;
+  display: flex;
+  margin-top: 60px;
+  margin-right: 81px;
+}
+.container .block-work__one--number {
+  color: rgba(0, 0, 0, 0.15);
+  font-style: italic;
+  font-weight: 100;
+  font-size: 70px;
+  line-height: 110%;
+  margin-right: 24px;
+}
+.container .block-work__one--text {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+.container .block-work__one--name {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.container .block-work__one--description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

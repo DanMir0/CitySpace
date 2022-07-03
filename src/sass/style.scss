@@ -1,0 +1,137 @@
+@media screen and(max-width: 1200px) {
+    // .container {
+    //     max-width: 650px
+    // }
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header-info {
+    display: flex;
+    margin: 0 60px;
+    height: 88px;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+
+        img {
+            margin-right: 12px;
+        }
+
+        &--space {
+            color: #A7CC4A;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        margin-left: 264px;
+        max-width: 798px;
+        align-items: center;
+        flex-direction: row;
+
+        a {
+            padding-right: 40px;
+            font-size: 15px;
+            color: #000000;
+        }
+    }
+
+    &__contact-info {
+        display: flex;
+        margin-left: 264px;
+        text-align: right;
+        font-size: 15px;
+
+        &--contact {
+            margin-left: 40px;
+            color: #88C558;
+        }
+    }
+
+    &__sliders {
+        background-image: url(../img/sliders.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 980px;
+
+        &--name {
+            padding: 582px 0 100px 60px;
+            font-size: 64px;
+            color: #FFFFFF;
+        }
+
+        &--btn {
+            display: flex;
+            margin-left: 60px;
+
+            button {
+                margin-right: 8px;
+                width: 24px;
+                opacity: 0.5;
+                border: 3px solid #FFFFFF;
+            }
+        }
+    }
+}
+
+.container {
+    max-width: 1216px;
+    margin: 0 auto;  
+
+    .block-work {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1167px;
+
+        &__title {
+            font-size: 48px;
+            margin-top: 180px;
+        }
+
+        &__one {
+            max-width: 543px;
+            display: flex;
+            margin-top: 60px;
+            margin-right: 81px;
+
+            &--number {
+                color: rgba(0, 0, 0, 0.15);
+                font-style: italic;
+                font-weight: 100;
+                font-size: 70px;
+                line-height: 110%;
+                margin-right: 24px;
+            }
+
+            &--text {
+                display: flex;
+                flex-direction: column;
+                align-self: flex-start;
+            }
+
+            &--name {
+                font-size: 28px;
+                margin-bottom: 8px;
+            }
+
+            &--description {
+                color: rgba(0, 0, 0, 0.5);
+                font-size: 20px;
+            }
+        }
+    }
+}
