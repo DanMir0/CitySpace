@@ -66,6 +66,7 @@
         background-size: cover;
         background-position: center;
         height: 980px;
+        margin-bottom: 180px;
 
         &--name {
             padding: 582px 0 100px 60px;
@@ -89,18 +90,18 @@
 
 .container {
     max-width: 1216px;
-    margin: 0 auto;  
+    margin: 0 auto;
+
+    .block__title {
+        font-size: 48px;
+        font-weight: 700;
+    }
 
     .block-work {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         max-width: 1167px;
-
-        &__title {
-            font-size: 48px;
-            margin-top: 180px;
-        }
 
         &__one {
             max-width: 543px;
@@ -115,6 +116,7 @@
                 font-size: 70px;
                 line-height: 110%;
                 margin-right: 24px;
+                letter-spacing: -0.08em;
             }
 
             &--text {
@@ -126,12 +128,96 @@
             &--name {
                 font-size: 28px;
                 margin-bottom: 8px;
+                letter-spacing: -0.01em;
             }
 
             &--description {
                 color: rgba(0, 0, 0, 0.5);
                 font-size: 20px;
+                letter-spacing: -0.01em;
             }
+        }
+    }
+
+    .block-description {
+        display: flex;
+        margin-top: 180px;
+        margin-bottom: 60px;
+
+        &__square {
+            flex-direction: column;
+            margin-right: 197px;
+            width: 531px;
+
+            &--number {
+                font-size: 90px;
+                font-weight: 500;
+                line-height: 110%;
+                letter-spacing: -0.02em;
+            }
+
+            &--description {
+                margin-top: 21px;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+
+        &__info {
+            font-size: 20px;
+            line-height: 150%;
+            letter-spacing: -0.02em;
+        }
+    }
+
+    .line {
+        border: 1px solid rgba(0, 0, 0, 0.08);
+    }
+
+    .block-info {
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &__description {
+            flex-direction: column;
+            margin-bottom: 60px;
+
+            &--project {
+                display: flex;
+                flex-direction: row;
+
+                &-number {
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 100%;
+                    letter-spacing: -0.02em;
+                }
+
+                &-realization {
+                    display: flex;
+                    align-items: center;
+                    max-width: 148px;
+                    font-size: 20px;
+                    line-height: 110%;
+                    letter-spacing: -0.02em;
+                    margin-left: 20px;
+                }
+            }
+
+            &--content {
+                margin-top: 32px;
+                max-width: 592px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 160%;
+                letter-spacing: -0.01em;
+            }
+        }
+        
+        img {
+            margin-bottom: 60px;
         }
     }
 }
