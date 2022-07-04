@@ -13,6 +13,13 @@
     text-decoration: none;
 }
 
+.big-text {
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+}
+
 .header-info {
     display: flex;
     margin: 0 60px;
@@ -149,13 +156,6 @@
             margin-right: 197px;
             width: 531px;
 
-            &--number {
-                font-size: 90px;
-                font-weight: 500;
-                line-height: 110%;
-                letter-spacing: -0.02em;
-            }
-
             &--description {
                 margin-top: 21px;
                 font-size: 20px;
@@ -215,9 +215,80 @@
                 letter-spacing: -0.01em;
             }
         }
-        
+
         img {
             margin-bottom: 60px;
         }
     }
+
+    .block-company {
+        margin-top: 180px;
+        display: flex;
+        justify-content: space-between;
+
+        &__info {
+            max-width: 592px;
+            justify-content: column;
+
+            &--description {
+                margin-top: 40px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 160%;
+                letter-spacing: -0.01em;
+            }
+        }
+
+        &__picture {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            &--info {
+                margin-left: 64px;
+            }
+
+            &--info1 {
+                opacity: 0.7;
+                margin-left: 64px;
+            }
+
+            &--info2 {
+                opacity: 0.6;
+                margin-left: 64px;
+            }
+
+            &--info3 {
+                opacity: 0.5;
+                margin-left: 64px;
+            }
+
+            &--info4 {
+                opacity: 0.4;
+                margin-left: 64px;
+            }
+        }
+    }
+
+    .block-earth {
+        margin-top: 80px;
+        background-image: url(../img/earth.png);
+        background-position: center;
+        height: 621px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+            &__description {
+                margin-top: 20px;
+            }
+
+            .block-services {
+                display: flex;
+                justify-content: flex-start;
+            }
+    }
+    
+   
 }
