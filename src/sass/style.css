@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -228,17 +229,193 @@
 .container .block-earth {
   margin-top: 80px;
   background-image: url(../img/earth.png);
-  background-position: center;
-  height: 621px;
+  background-repeat: no-repeat;
+}
+.container .block-earth__realization {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  padding-top: 160px;
+  padding-bottom: 180px;
 }
-.container .block-earth__description {
+.container .block-earth__realization--description {
   margin-top: 20px;
+  letter-spacing: 0.24em;
+  line-height: 110%;
 }
-.container .block-earth .block-services {
+.container .block-earth__services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.container .block-earth .services__info {
+  width: 384px;
+}
+.container .block-earth .services__info--name {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+.container .block-earth .services__info--name::after {
+  content: "→";
+  padding-left: 12px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+  opacity: 0.3;
+  width: 20px;
+}
+.container .block-earth .services__info--description {
+  margin-top: 8px;
+  margin-bottom: 48px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  font-size: 18px;
+}
+.container .block-benefits {
+  margin-top: 180px;
+  display: flex;
+}
+.container .block-benefits__left {
+  margin-right: 84px;
+}
+.container .block-benefits__left hr {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.container .block-benefits__left--description {
   display: flex;
   justify-content: flex-start;
+  padding: 16px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.container .block-benefits__left--description p {
+  font-size: 18px;
+  line-height: 106%;
+  letter-spacing: -0.01em;
+}
+.container .block-benefits__left--description::before {
+  content: "→";
+  padding-right: 12px;
+  color: #88C558;
+  line-height: 21.6px;
+  letter-spacing: -0.01em;
+}
+.container .block-benefits__right {
+  height: 814px;
+}
+.container .block-benefits .indent-bottom {
+  margin-bottom: 40px;
+}
+.container .block-project {
+  margin-top: 180px;
+}
+.container .block-project__title {
+  display: flex;
+  justify-content: space-between;
+}
+.container .block-project__title--all-project {
+  display: flex;
+  color: #88C558;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  align-items: center;
+}
+.container .block-project__title--all-project::after {
+  content: "→";
+  padding-left: 12px;
+}
+.container .block-project__description {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.container .block-project__description .projet-info__description {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+  margin-bottom: 32px;
+}
+.container .block-project__description .projet-info__description--name {
+  margin-right: 12px;
+}
+.container .block-project__description .projet-info__description--year {
+  color: rgba(0, 0, 0, 0.5);
+}
+.container .block-team {
+  margin-top: 180px;
+}
+.container .block-team__description {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .block-team__description--main {
+  background: #EFEFEF;
+}
+.container .block-team__description--others {
+  background: #EFEFEF;
+  display: flex;
+  width: 176px;
+  height: 154px;
+  margin-top: 32px;
+  align-items: flex-end;
+  justify-content: center;
+}
+.container .block-team__description--others-last {
+  display: flex;
+  width: 176px;
+  height: 154px;
+  margin-top: 32px;
+  background: #000000;
+  background-color: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: url(../img/block-team/team_21.png);
+}
+.container .block-team .block-team__others-last--info {
+  padding-left: 12px;
+  padding-top: 12px;
+}
+.container .block-team .block-team__others-last--name {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  line-height: 110%;
+}
+.container .block-team .block-team__others-last--position {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.container .block-team__info {
+  padding-top: 24px;
+  padding-left: 24px;
+}
+.container .block-team__info--name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 110%;
+}
+.container .block-team__info--position {
+  letter-spacing: -0.01em;
+  line-height: 110%;
+  color: rgba(0, 0, 0, 0.5);
+}
+.container .block-team__photo-1 {
+  margin: 18px 56px 0 56px;
+}
+.container .block-team__photo-2 {
+  margin: 16px 70px 0 55px;
+}
+.container .block-team__photo-3 {
+  margin: 16px 19px 0 18px;
 }/*# sourceMappingURL=style.css.map */

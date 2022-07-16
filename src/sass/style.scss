@@ -273,22 +273,231 @@
     .block-earth {
         margin-top: 80px;
         background-image: url(../img/earth.png);
-        background-position: center;
-        height: 621px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        background-repeat: no-repeat;
 
-            &__description {
+        &__realization {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 160px;
+            padding-bottom: 180px;
+
+            &--description {
                 margin-top: 20px;
+                letter-spacing: 0.24em;
+                line-height: 110%;
+            }
+        }
+
+        &__services {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 60px;
+        }
+
+        .services__info {
+            width: 384px;
+
+            &--name {
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 110%;
+                letter-spacing: -0.01em;
             }
 
-            .block-services {
+            &--name::after {
+                content: "→";
+                padding-left: 12px;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 110%;
+                letter-spacing: -0.01em;
+                opacity: 0.3;
+                width: 20px;
+            }
+
+            &--description {
+                margin-top: 8px;
+                margin-bottom: 48px;
+                line-height: 130%;
+                letter-spacing: -0.01em;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .block-benefits {
+        margin-top: 180px;
+        display: flex;
+
+        &__left {
+            margin-right: 84px;
+
+            hr {
+                border: 1px solid rgba(0, 0, 0, 0.1);
+            }
+
+            &--description {
                 display: flex;
                 justify-content: flex-start;
+                padding: 16px 0;
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+                p {
+                    font-size: 18px;
+                    line-height: 106%;
+                    letter-spacing: -0.01em;
+                }
             }
+
+            &--description::before {
+                content: "→";
+                padding-right: 12px;
+                color: #88C558;
+                line-height: 21.6px;
+                letter-spacing: -0.01em;
+            }
+        }
+
+        &__right {
+            height: 814px;
+        }
+
+        .indent-bottom {
+            margin-bottom: 40px;
+        }
     }
-    
-   
+
+    .block-project {
+        margin-top: 180px;
+
+        &__title {
+            display: flex;
+            justify-content: space-between;
+
+            &--all-project {
+                display: flex;
+                color: #88C558;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 150%;
+                align-items: center;
+            }
+
+            &--all-project::after {
+                content: '→';
+                padding-left: 12px;
+            }
+        }
+
+        &__description {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 60px;
+            justify-content: space-between;
+
+            .projet-info__description {
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 16px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 110%;
+                letter-spacing: -0.01em;
+                margin-bottom: 32px;
+
+                &--name {
+                    margin-right: 12px;
+                }
+
+                &--year {
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
+
+    .block-team {
+        margin-top: 180px;
+
+        &__description {
+            margin-top: 48px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            &--main {
+                background: #EFEFEF;
+            }
+
+            &--others {
+                background: #EFEFEF;
+                display: flex;
+                width: 176px;
+                height: 154px;
+                margin-top: 32px;
+                align-items: flex-end;
+                justify-content: center;
+            }
+
+            &--others-last {
+                display: flex;
+                width: 176px;
+                height: 154px;
+                margin-top: 32px;
+                background: #000000;
+                background-color: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);;
+                background-image: url(../img/block-team/team_21.png);
+            }
+        }
+
+        .block-team__others-last--info {
+            padding-left: 12px;
+            padding-top: 12px;
+        }
+
+        .block-team__others-last--name {
+            font-weight: 700;
+            letter-spacing: -0.01em;
+            color: #FFFFFF;
+            line-height: 110%;
+        }
+
+        .block-team__others-last--position {
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        &__info {
+            padding-top: 24px;
+            padding-left: 24px;
+
+            &--name {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 110%;
+            }
+
+            &--position {
+                letter-spacing: -0.01em;
+                line-height: 110%;
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        &__photo-1 {
+            margin: 18px 56px 0 56px;
+        }
+
+        &__photo-2 {
+            margin: 16px 70px 0 55px;
+        }
+
+        &__photo-3 {
+            margin: 16px 19px 0 18px;
+        }
+    }
 }
