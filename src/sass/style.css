@@ -355,13 +355,14 @@
   margin-top: 180px;
 }
 .container .block-team__description {
-  margin-top: 48px;
+  margin-top: 38px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .container .block-team__description--main {
   background: #EFEFEF;
+  margin-top: 10px;
 }
 .container .block-team__description--others {
   background: #EFEFEF;
@@ -418,4 +419,173 @@
 }
 .container .block-team__photo-3 {
   margin: 16px 19px 0 18px;
+}
+.container .block-tour {
+  margin-top: 180px;
+}
+.container .block-tour__title {
+  display: flex;
+  justify-content: space-between;
+}
+.container .block-tour__title--number {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: #A7CC4A;
+}
+.container .block-tour__title--description {
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.5);
+}
+.container .block-tour .small-line--green {
+  width: 80px;
+  border: 2px solid #A7CC4A;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.container .block-tour__description {
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.01em;
+}
+
+.block-sliders {
+  display: flex;
+  margin-top: 64px;
+  justify-content: space-between;
+  margin-bottom: 183px;
+}
+.block-sliders__card {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.block-sliders__card--description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+}
+
+footer {
+  background: #F5F5F5;
+}
+footer .block-contact {
+  display: flex;
+  padding-top: 120px;
+}
+footer .block-contact__left {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  margin-right: 136px;
+}
+footer .block-contact__left .iframe {
+  margin-top: 20px;
+}
+footer .block-contact__info {
+  display: flex;
+  margin-top: 40px;
+}
+footer .block-contact__info--name {
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.5);
+}
+footer .block-contact__info--name p {
+  margin-bottom: 21px;
+}
+footer .block-contact__info--description {
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+}
+footer .block-contact__info--description p {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+footer .block-contact__right {
+  background: #FFFFFF;
+  box-shadow: 0px 24px 60px rgba(0, 0, 0, 0.06), 0px 6px 24px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  margin-bottom: 80px;
+}
+footer .block-contact__right--title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+}
+footer .block-contact__right--info {
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.5);
+}
+footer .block-contact__right--description {
+  margin: 48px 60px 24px 60px;
+  display: flex;
+  flex-direction: column;
+}
+footer .block-contact__right--input {
+  margin: 0 60px 48px 60px;
+  display: flex;
+  flex-direction: column;
+}
+footer .block-contact__right--name, footer .block-contact__right--message, footer .block-contact__right--phone {
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  margin-bottom: 12px;
+  border: none;
+}
+footer .block-contact__right--message {
+  height: 120px;
+  resize: none;
+  padding: 16px 0 0 20px;
+}
+footer .block-contact__right--name, footer .block-contact__right--phone {
+  height: 50px;
+  padding: 17px 0 17px 20px;
+}
+footer .block-contact__right .request__button {
+  border: none;
+  height: 50px;
+  background: #A7CC4A;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+footer .block-footer__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 112px;
+}
+footer .footer-info__menu {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-info__menu a {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  margin-right: 32px;
+}
+footer .footer-info__copyright {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: right;
+  letter-spacing: 0.12em;
+  color: rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=style.css.map */
