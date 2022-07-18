@@ -14,33 +14,35 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="header-info">
             <div class="header-info__logo">
-                <img src="/src/img/logo.svg" alt="logo">
-                <h1>City</h1>
-                <h1 class="header-info__logo--space">Space</h1>
+                <svg width="26" height="48" viewBox="0 0 26 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 34V14L20 11V0L0 8V40L20 48V37L9 34Z" fill="#A7CC4A"/>
+                    <path d="M20 19L9 14L20 11L26 14V34L20 37L9 34L20 29V19Z" fill="#1F2E3C"/>
+                    </svg>
+                <h1>City <span>Space</span></h1>
+                <!-- <h1 class="header-info__logo--space">Space</h1> -->
             </div>
-            <nav>
-                <ul class="header-info__menu">
-                    <a href="">Контакты</a>
-                    <a href="">Партнерам</a>
-                    <a href="">Портфолио</a>
-                    <a href="">Услуги</a>
-                    <a href="">Почему мы</a>
-                    <a href="">Награды</a>
-                    <a href="">Для прессы</a>
+            <nav class="menu">
+                <ul class="menu__ultralinear">
+                    <ol><a href="">Контакты</a></ol>
+                    <ol><a href="">Партнерам</a></ol>
+                    <ol><a href="">Портфолио</a></ol>
+                    <ol><a href="">Услуги</a></ol>
+                    <ol><a href="">Почему мы</a></ol>
+                    <ol><a href="">Награды</a></ol>
+                    <ol><a href="">Для прессы</a></ol>
                 </ul>
             </nav>
-            <div class="header-info__contact-info">
-                <p>Москва, Лужнецкая <br>набережная, 2/4, строение 17</p>
-                <p class="header-info__contact-info--contact">+7 495 293-39-21 <br>office@city-space.ru</p>
+            <div class="header-info__contact">
+                <a>Москва, Лужнецкая <br>набережная, 2/4, строение 17</a>
+                <a>+7 495 293-39-21 <br>office@city-space.ru</a>
             </div>
         </div>
-        <div class="header-info__sliders">
-            <p class="header-info__sliders--name">Комплексный подход <br>к проектированию <br>и реализации пространства
-            </p>
-            <div class="header-info__sliders--btn">
+        <div class="header__sliders">
+            <h2 class="header__sliders-name">Комплексный подход к проектированию и реализации пространства</h2>
+            <div class="header__sliders-btn">
                 <button></button>
                 <button></button>
                 <button></button>
@@ -57,7 +59,7 @@
     </header>
     <main>
         <div class="container">
-            <p class="block__title">Направления работы</p>
+            <h2 class="block__title">Направления работы</h2>
             <div class="block-work">
                 <div class="block-work__one">
                     <p class="block-work__one--number">01</p>
@@ -93,9 +95,9 @@
                     <p class="big-text">1 510 000 м²</p>
                     <p class="block-description__square--description">Площадь проектов в строительстве и Fit-Out</p>
                 </div>
-                <p class="block-description__info"> Холдинг City Space занимается капительным <br>строительством,
-                    проектированием и fit-out. <br>На данный момент реализовано более 200 <br>проектов общей площадью 1
-                    510 000 м² в области <br>коммерческой и индустриальной недвижимости.</p>
+                <p class="block-description__info"> Холдинг City Space занимается капительным строительством,
+                    проектированием и fit-out. На данный момент реализовано более 200 проектов общей площадью 1
+                    510 000 м² в области коммерческой и индустриальной недвижимости.</p>
             </div>
             <hr class="line">
             <div class="block-info">
@@ -130,11 +132,11 @@
                     <p class="block-company__info--description">City Space заслуженно считается одним из лидеров
                         строительного рынка на территории России. City Space предлагает услуги Генерального подряда и
                         комплексные решения по реализации архитектурного и инженерного проектирования, капитального
-                        строительства, отделке <br>и инженерного оснащения общественных, офисных и жилых помещений. По
+                        строительства, отделке и инженерного оснащения общественных, офисных и жилых помещений. По
                         общим
-                        подсчетам Компанией сдано <br>в эксплуатацию уже более одного миллиона кв метров. Мощности и
+                        подсчетам Компанией сдано в эксплуатацию уже более одного миллиона кв метров. Мощности и
                         ресурсы
-                        компании позволяют вести работы <br>на объектах общей площадью до 70 000 м² единовременно.</p>
+                        компании позволяют вести работы на объектах общей площадью до 70 000 м² единовременно.</p>
                 </div>
                 <div class="block-company__picture">
                     <div class="block-company__picture--info">
@@ -444,8 +446,8 @@
                 <hr class="small-line--green">
                 <p class="block-tour__description">Не все клиенты готовы публиковать свои данные, и мы с большим
                     уважением относимся
-                    <br>к их конфиденциальности. Однако отзывы и рекомендации для нас очень важны! Поэтому <br>нашим
-                    потенциальным клиентам мы даем уникальную возможность встретиться <br>непосредственно с
+                    к их конфиденциальности. Однако отзывы и рекомендации для нас очень важны! Поэтому нашим
+                    потенциальным клиентам мы даем уникальную возможность встретиться непосредственно с
                     представителями
                     наших заказчиков на территории готовых объектов.
                 </p>
@@ -454,27 +456,27 @@
         <div class="block-sliders">
             <div class="block-sliders__card">
                 <img src="./src/img/block-sliders/card_2.png" alt="">
-                <p class="block-sliders__card--description">Центр перспективных <br>управленческих решений</p>
+                <p class="block-sliders__card--description">Центр перспективных управленческих решений</p>
             </div>
             <div class="block-sliders__card">
                 <img src="./src/img/block-sliders/card_3.png" alt="">
-                <p class="block-sliders__card--description">Шоу-рум и учебный центр <br>компании Sono Russ</p>
+                <p class="block-sliders__card--description">Шоу-рум и учебный центр компании Sono Russ</p>
             </div>
             <div class="block-sliders__card">
                 <img src="./src/img/block-sliders/card_4.png" alt="">
-                <p class="block-sliders__card--description">Колл-центр компании МТС <br>в Ульяновске</p>
+                <p class="block-sliders__card--description">Колл-центр компании МТС в Ульяновске</p>
             </div>
             <div class="block-sliders__card">
                 <img src="./src/img/block-sliders/card_5.png" alt="">
-                <p class="block-sliders__card--description">Офис социологических <br>исследований</p>
+                <p class="block-sliders__card--description">Офис социологических исследований</p>
             </div>
             <div class="block-sliders__card">
                 <img src="./src/img/block-sliders/card_6.png" alt="">
-                <p class="block-sliders__card--description">Центр перспективных <br>управленческих решений</p>
+                <p class="block-sliders__card--description">Центр перспективных управленческих решений</p>
             </div>
             <div class="block-sliders__card">
                 <img src="./src/img/block-sliders/card_7.png" alt="">
-                <p class="block-sliders__card--description">Колл-центр компании МТС<br>в Ульяновске</p>
+                <p class="block-sliders__card--description">Колл-центр компании МТС в Ульяновске</p>
             </div>
         </div>
     </main>

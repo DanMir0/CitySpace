@@ -27,35 +27,55 @@
   flex-flow: row wrap;
   align-items: center;
 }
-.header-info__logo img {
+.header-info__logo h1 {
+  font-size: 30px;
+}
+.header-info__logo svg {
+  width: 26px;
+  height: 48px;
   margin-right: 12px;
 }
-.header-info__logo--space {
+.header-info__logo span {
   color: #A7CC4A;
 }
-.header-info__menu {
+.header-info .menu {
   display: flex;
   margin-left: 264px;
-  max-width: 798px;
+  width: 752px;
   align-items: center;
-  flex-direction: row;
 }
-.header-info__menu a {
-  padding-right: 40px;
+.header-info .menu__ultralinear {
+  display: flex;
+  justify-content: flex-start;
+}
+.header-info .menu a {
+  padding-right: 30px;
+  line-height: 110%;
   font-size: 15px;
+  letter-spacing: -0.02em;
   color: #000000;
 }
-.header-info__contact-info {
+.header-info .menu a:hover {
+  opacity: 0.8;
+  color: #88C558;
+}
+.header-info__contact {
   display: flex;
   margin-left: 264px;
   text-align: right;
   font-size: 15px;
+  letter-spacing: -0.02em;
 }
-.header-info__contact-info--contact {
+.header-info__contact a:first-child {
+  line-height: 140%;
+}
+.header-info__contact a:last-child {
   margin-left: 40px;
   color: #88C558;
+  line-height: 130%;
 }
-.header-info__sliders {
+
+.header__sliders {
   background-image: url(../img/sliders.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,16 +83,20 @@
   height: 980px;
   margin-bottom: 180px;
 }
-.header-info__sliders--name {
+.header__sliders-name {
+  width: 1017px;
   padding: 582px 0 100px 60px;
   font-size: 64px;
   color: #FFFFFF;
+  line-height: 110%;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
-.header-info__sliders--btn {
+.header__sliders-btn {
   display: flex;
   margin-left: 60px;
 }
-.header-info__sliders--btn button {
+.header__sliders-btn button {
   margin-right: 8px;
   width: 24px;
   opacity: 0.5;
@@ -192,6 +216,7 @@
   justify-content: space-between;
 }
 .container .block-company__info {
+  max-width: 400px;
   max-width: 592px;
   justify-content: column;
 }
@@ -447,6 +472,7 @@
   margin-bottom: 32px;
 }
 .container .block-tour__description {
+  max-width: 904px;
   font-size: 20px;
   line-height: 160%;
   letter-spacing: -0.01em;
